@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+    tools:context=".UpdateGame">
+
+
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/colorbuttonAccent"
+        android:text="Update Price"
+        android:layout_gravity="center_horizontal"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <EditText
+                android:id="@+id/editprice"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"
+                android:textColorHint="@color/White"
+                android:textSize="18dp"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="new Price" />
+            <Button
+                android:id="@+id/submitprice"
+                android:textColor="@color/White"
+                android:background="@drawable/roundbutton"
+                android:padding="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit new price" />
+
+        </TableRow>
+
+
+        <TableRow>
+        <EditText
+            android:id="@+id/editpic"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/White"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="new pic url" />
+
+            <Button
+                android:id="@+id/submiturl"
+                android:textColor="@color/White"
+                android:background="@drawable/roundbutton"
+                android:padding="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit new url" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+        <Button
+            android:id="@+id/disable"
+            android:layout_width="wrap_content"
+            android:textColor="@color/White"
+            android:background="@drawable/roundbutton"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:text="disable Game" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/White"
+        android:background="@drawable/roundbutton"
+        android:padding="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Go back and dont change" />
+
+
+</LinearLayout>

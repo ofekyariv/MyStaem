@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+        </group>
+        <item android:id="@+id/drawer_menu_update_profile"
+            android:title="Edit Profile"
+            android:icon="@drawable/edit" />
+
+        <item android:id="@+id/drawer_menu_add_game"
+            android:title="Add Game"
+            android:icon="@drawable/add" />
+
+        <item android:id="@+id/drawer_menu_settings"
+            android:title="See Users"
+            android:icon="@drawable/user" />
+
+        <item android:id="@+id/drawer_menu_cart"
+            android:title="My cart"
+            android:icon="@drawable/thinkofbuying" />
+
+        <item android:id="@+id/drawer_menu_owned"
+            android:title="all raedy owned"
+            android:icon="@drawable/my_cart" />
+
+        <item android:id="@+id/drawer_menu_info"
+            android:title="more info about me"
+            android:icon="@drawable/more_info"
+            android:visible="false"/>
+
+        <item android:id="@+id/drawer_menu_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout" />
+
+
+</menu>
